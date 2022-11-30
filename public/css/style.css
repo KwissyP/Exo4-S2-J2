@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: none;
+}
+

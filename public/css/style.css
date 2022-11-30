@@ -16,3 +16,100 @@ a:hover {
     text-decoration: none;
 }
 
+section:first-child a:nth-child(2)::after {
+    content: '';
+    background-image: url(../../public/img/link.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+section:first-child a:nth-child(3)::after {
+    content: '';
+    background-image: url(../../public/img/icons8-happy-file-24.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+section:first-child a:nth-child(4)::before {
+    content: '';
+    background-image: url(../../public/img/icons8-secured-letter-24.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+section:first-child a:nth-child(5)::before {
+    content: '';
+    background-image: url(../../public/img/tel.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+section:first-child a:nth-child(6)::before {
+    content: '';
+    background-image: url(../../public/img/topic.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+p:first-child :nth-child(2)::after{
+    content: '';
+    background-image: url(../../public/img/icons8-happy-file-24.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+p:first-child a:nth-child(3)::after{
+    content: '';
+    background-image: url(../../public/img/link.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+p:nth-child(2) a:first-child::before {
+    content: '';
+    background-image: url(../../public/img/icons8-secured-letter-24.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+p:nth-child(2) a:nth-child(2)::before {
+    content: '';
+    background-image: url(../../public/img/tel.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+p:nth-child(2) a:nth-child(3)::before {
+    content: '';
+    background-image: url(../../public/img/topic.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
